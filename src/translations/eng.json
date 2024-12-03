@@ -1,0 +1,94 @@
+{
+  "Accueil": "Home",
+  "Portefeuille de travail": "Work Portfolio",
+  "À propos de nous": "About Us",
+  "Prestations": "Services",
+  "Contactez-nous": "Contact Us",
+
+  "WhoWeAre": "Who We Are",
+  "DecribeWhoWeAre": "We are a dynamic graphic studio dedicated to elevating your brand through the power of design. Specializing in branding, graphic design, web development, and digital marketing, we transform ideas into compelling visuals that engage your target audience. From unique logo creation to impactful advertising campaigns, we craft user-centered solutions that resonate and inspire, helping your business thrive in the digital landscape",
+  "OurMission": "Our Mission",
+  "OurMissionText": "At Artifice Studio, our mission is to bring creative ideas to life through innovative and visually compelling designs. We aim to empower brands and businesses by providing exceptional graphic design services that resonate with their target audience, tell their unique stories, and drive success. Whether it's a logo, marketing material, website design, or brand identity, our mission is to craft designs that not only stand out but also make an impact.",
+  "OurVision": "Our Vision",
+  "OurVisionText": "Our vision is to be a leading design studio that inspires creativity and pushes the boundaries of visual storytelling. We strive to transform the way businesses communicate through design, delivering powerful, impactful visuals that elevate brands and connect with their audience on a deeper level. We aim to create a world where design is a key driver of business success, sparking meaningful conversations and lasting impressions.",
+  "OurValue": "Our Values",
+  "OurValueText": "At Artifice Studio, creativity is at the heart of everything we do. We believe in creativity, quality, and collaboration. We work closely with clients to deliver designs that exceed expectations while maintaining integrity and transparency. We embrace innovation to stay ahead of trends, ensuring every project makes a lasting impact.",
+  "OurApproach": "Our Appraoch",
+  "OurApproachText": "At Artifice, we take a collaborative, client-focused approach to design. We start by deeply understanding your brand and vision, ensuring that every project is tailored to your unique goals. Our process blends creativity with strategy, resulting in designs that are not only visually captivating but also impactful. Through open communication and a commitment to excellence, we guide each project from concept to completion, ensuring it exceeds expectations and drives meaningful results.",
+
+  "WhatWeProvide" : "What We Provide",
+
+  "Notre Menu": "Our Menu",
+  "Menu Général": "General Menu",
+  "Galerie": "Gallery",
+  "Traiteur": "Traiteur ",
+
+  "description": "Artifice Studio Is A Creative Firm That Offer Diverse Services including Logo Design, Poster Design, Custom Web Design, Branding & Digital Strategy.",
+  "FirstLine": "A Hub For Designing, Branding, Development and Marketing",
+
+  "CounterHead": "WHY CHOOSE US",
+  "YearOfExp": "Years of Excellence",
+  "HappyClient": "Happy Clients",
+  "ProjectsAccomplished": "Projects Accomplished",
+  "TeamMembers": "Team Members",
+
+  "contactUs": "Contact Us",
+  "LetTalk" : "LET'S TALK",
+
+  "followUs": "Follow Our News",
+  "subscribe": "Subscribe",
+  "navigation": "Navigation",
+  "home": "Home",
+  "aboutUs": "About Us",
+  "menu": "Our Menu",
+  "ourservices": "Our Services",
+  "generalMenu": "General Menu",
+  "cookingClasses": "Cooking Classes",
+  "gallery": "Our Gallery",
+  "contacte": "Contact Us",
+  "email": "traiteurjoy@gmail.com",
+  "phone": "+32 493 03 94 40",
+  "address": "Rue Joseph Stevens 28\n1000 Brussels\nVAT 0744.562.496",
+  "copyright": "© 2024 Traiteur Joy. All rights reserved.",
+
+  "contact": {
+    "hero": {
+      "title": "Let's Get in Touch",
+      "description": "Have a question or need advice? We're here to help. Fill out the form below and let's start a conversation that could lead to culinary brilliance."
+    },
+    "info": {
+      "title": "We'd Love to Hear from You",
+      "description": "Whether you're a novice cook or a seasoned chef, your journey with us begins here. Share your thoughts, and let's create something extraordinary together."
+    },
+    "address": {
+      "title": "Our Address",
+      "line1": "Rue Joseph Stevens 28, 1000 Brussels",
+      "line2": "VAT 0744.562.496"
+    },
+    "email": {
+      "title": "Write to Us",
+      "address": "traiteurjoy@gmail.com",
+      "action": "Send an Email"
+    },
+    "phone": {
+      "title": "Call Us",
+      "number": "+32 498 77 82 91",
+      "action": "Call Now"
+    },
+
+    "form": {
+      "title": "Send Us a Message",
+      "firstname": "First Name",
+      "firstnamePlaceholder": "e.g., John",
+      "lastname": "Last Name",
+      "lastnamePlaceholder": "e.g., Doe",
+      "email": "Email Address",
+      "emailPlaceholder": "you@example.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "e.g., +32 598 80 83 21",
+      "message": "Your Message",
+      "messagePlaceholder": "Tell us about your culinary dreams...",
+      "submit": "Send Message"
+    }
+  }
+}

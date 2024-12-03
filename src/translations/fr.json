@@ -1,0 +1,93 @@
+{
+  "Accueil": "Accueil",
+  "Cours de cuisine": "Cours de cuisine",
+  "Portefeuille de travail": "Portefeuille de travail",
+  "Prestations": "Prestations",
+  "Contactez-nous": "Contactez-nous",
+
+  "WhoWeAre": "Qui nous sommes",
+  "DecribeWhoWeAre": "Nous sommes un studio graphique dynamique qui se consacre à la mise en valeur de votre marque grâce à la puissance du design. Spécialisés dans l'image de marque, la conception graphique, le développement web et le marketing numérique, nous transformons les idées en visuels convaincants qui attirent votre public cible. De la création de logos uniques aux campagnes publicitaires percutantes, nous concevons des solutions centrées sur l'utilisateur qui résonnent et inspirent, aidant votre entreprise à prospérer dans le paysage numérique.",
+  "OurMission": "Notre Mission",
+  "OurMissionText": "Chez Artifice Studio, notre mission est de donner vie à des idées créatives par le biais de conceptions innovantes et visuellement convaincantes. Nous visons à renforcer les marques et les entreprises en fournissant des services de conception graphique exceptionnels qui résonnent avec leur public cible, racontent leurs histoires uniques et conduisent au succès. Qu'il s'agisse d'un logo, de matériel de marketing, de la conception d'un site Web ou de l'identité d'une marque, notre mission est de créer des designs qui non seulement se démarquent, mais qui ont aussi un impact.",
+  "OurVision": "Notre Vision",
+  "OurVisionText": "Notre vision est d'être un studio de design de premier plan qui inspire la créativité et repousse les limites de la narration visuelle. Nous nous efforçons de transformer la façon dont les entreprises communiquent par le biais du design, en produisant des visuels puissants et percutants qui élèvent les marques et établissent un lien plus profond avec leur public. Notre objectif est de créer un monde où le design est un moteur essentiel de la réussite des entreprises, suscitant des conversations significatives et des impressions durables.",
+  "OurValue": "Nos Valeurs",
+  "OurValueText": "Chez Artifice Studio, la créativité est au cœur de tout ce que nous faisons. Nous croyons en la créativité, la qualité et la collaboration. Nous travaillons en étroite collaboration avec nos clients pour proposer des projets qui dépassent leurs attentes, tout en préservant l'intégrité et la transparence. Nous misons sur l'innovation pour rester à la pointe des tendances et faire en sorte que chaque projet ait un impact durable.",
+  "OurApproach": "Notre Approche",
+  "OurApproachText": "Chez Artifice, nous adoptons une approche de la conception axée sur la collaboration et le client. Nous commençons par comprendre en profondeur votre marque et votre vision, en veillant à ce que chaque projet soit adapté à vos objectifs uniques. Notre processus allie créativité et stratégie, ce qui se traduit par des conceptions qui sont non seulement visuellement captivantes, mais qui ont également un impact. Grâce à une communication ouverte et à un engagement en faveur de l'excellence, nous accompagnons chaque projet de sa conception à sa réalisation, en veillant à ce qu'il dépasse les attentes et produise des résultats significatifs.",
+
+  "WhatWeProvide" : "Ce que nous proposons",
+
+  "Notre Menu": "Notre Menu",
+  "Menu Général": "Menu Général",
+  "Galerie": "Galerie",
+  "Traiteur": "Traiteur",
+
+  "description": "Artifice Studio est une agence de création spécialisée dans la création de logo, le design graphique, le branding Custom Web Design et la stratégie numérique.",
+  "FirstLine": "Une plate-forme pour la conception, l'image de marque, le développement et le marketing",
+
+  "CounterHead": "POURQUOI NOUS CHOISIR",
+  "YearOfExp": "Années d'excellence",
+  "HappyClient": "Des Clients Heureux",
+  "ProjectsAccomplished": "Projets Réalisés",
+  "TeamMembers": "Membres de l'équipe",
+
+  "contactUs": "Contactez-nous",
+  "LetTalk" : "PARLONS-EN",
+
+  "followUs": "Suivez Notre Actualité",
+  "subscribe": "S'abonner",
+  "navigation": "Navigation",
+  "home": "Accueil",
+  "aboutUs": "À propos de nous",
+  "menu": "Notre Menu",
+  "ourservices": "Nos Prestations",
+  "generalMenu": "Menu Général",
+  "cookingClasses": "Cours de Cuisine",
+  "gallery": "Notre Galerie",
+  "contacte": "Contactez nous",
+  "email": "traiteurjoy@gmail.com",
+  "phone": "+32 493 03 94 40",
+  "address": "Rue Joseph Stevens 28\n1000 Bruxelles\nTVA 0744.562.496",
+  "copyright": "© 2024 Traiteur Joy. Tous droits réservés.",
+
+  "contact": {
+    "hero": {
+      "title": "Entrons en Contact",
+      "description": "Vous avez une question ou besoin de conseils ? Nous sommes là pour vous aider. Remplissez le formulaire ci-dessous et commençons une conversation qui pourrait mener à une brillance culinaire."
+    },
+    "info": {
+      "title": "Nous Serions Ravis de Vous Entendre",
+      "description": "Que vous soyez novice en cuisine ou chef chevronné, votre voyage avec nous commence ici. Partagez vos pensées, et créons ensemble quelque chose d'extraordinaire."
+    },
+    "address": {
+      "title": "Notre Adresse",
+      "line1": "Rue Joseph Stevens 28, 1000 Bruxelles",
+      "line2": "TVA 0744.562.496"
+    },
+    "email": {
+      "title": "Écrivez-nous",
+      "address": "traiteurjoy@gmail.com",
+      "action": "Envoyer un Email"
+    },
+    "phone": {
+      "title": "Appelez-nous",
+      "number": "+32 498 77 82 91",
+      "action": "Appeler Maintenant"
+    },
+    "form": {
+      "title": "Envoyez-nous un Message",
+      "firstname": "Prénom",
+      "firstnamePlaceholder": "ex: Marie",
+      "lastname": "Nom",
+      "lastnamePlaceholder": "ex: Dupont",
+      "email": "Adresse Email",
+      "emailPlaceholder": "vous@example.com",
+      "phone": "Numéro de Téléphone",
+      "phonePlaceholder": "ex: +32 598 80 83 21",
+      "message": "Votre Message",
+      "messagePlaceholder": "Parlez-nous de vos rêves culinaires...",
+      "submit": "Envoyer le Message"
+    }
+  }
+}
