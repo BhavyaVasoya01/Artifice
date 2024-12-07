@@ -126,66 +126,50 @@ export function Header() {
         </div>
       ))}
 
-      {/* Language Selector Dropdown */}
-      <div className={`relative ${isMobile ? 'w-full mt-4' : ''}`}>
-        <button
-          onClick={toggleLanguageDropdown}
-          className={`${
-            isMobile
-              ? "w-full flex items-center justify-between px-4 py-3 text-left text-base font-medium text-white transition-colors"
-              : "text-white hover:text-gray-400 transition-colors py-2 px-4 rounded-md inline-flex items-center"
-          }`}
-        >
-          <span>{i18n.language === 'fr' ? 'Français' : 'English'}</span>
-          <svg
-            className={`h-5 w-5 transition-transform ${
-              isLanguageDropdownOpen ? 'rotate-180' : ''
-            }`}
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-            aria-hidden="true"
+      {/* Language Selector Dropdown for Desktop */}
+      {!isMobile && (
+        <div className="relative">
+          <button
+            onClick={toggleLanguageDropdown}
+            className="text-white hover:text-gray-400 transition-colors py-2 px-4 rounded-md inline-flex items-center"
           >
-            <path
-              fillRule="evenodd"
-              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-              clipRule="evenodd"
-            />
-          </svg>
-        </button>
-        {isLanguageDropdownOpen && (
-          <div
-            className={`${
-              isMobile
-                ? "w-full bg-black"
-                : "absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
-            }`}
-          >
-            <div className={`${isMobile ? 'py-2' : 'py-1'}`}>
-              <button
-                onClick={() => changeLanguage("fr")}
-                className={`${
-                  isMobile
-                    ? "block w-full px-4 py-2 text-left text-sm text-gray-300  hover:text-white transition-colors"
-                    : "text-gray-700 block w-full px-4 py-2 text-left text-sm hover:text-gray-900 transition-colors"
-                }`}
-              >
-                Français
-              </button>
-              <button
-                onClick={() => changeLanguage("en")}
-                className={`${
-                  isMobile
-                    ? "block w-full px-4 py-2 text-left text-sm text-gray-300  hover:text-white transition-colors"
-                    : "text-gray-700 block w-full px-4 py-2 text-left text-sm hover:text-gray-900 transition-colors"
-                }`}
-              >
-                English
-              </button>
+            <span>{i18n.language === 'fr' ? 'Français' : 'English'}</span>
+            <svg
+              className={`h-5 w-5 transition-transform ${
+                isLanguageDropdownOpen ? 'rotate-180' : ''
+              }`}
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                fillRule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </button>
+          {isLanguageDropdownOpen && (
+            <div className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+              <div className="py-1">
+                <button
+                  onClick={() => changeLanguage("fr")}
+                  className="text-gray-700 block w-full px-4 py-2 text-left text-sm hover:text-gray-900 transition-colors"
+                >
+                  Français
+                </button>
+                <button
+                  onClick={() => changeLanguage("en")}
+                  className="text-gray-700 block w-full px-4 py-2 text-left text-sm hover:text-gray-900 transition-colors"
+                >
+                  English
+                </button>
+              </div>
             </div>
-          </div>
-        )}
-      </div>
+          )}
+        </div>
+      )}
     </>
   );
 
@@ -208,6 +192,34 @@ export function Header() {
           <nav className="hidden md:flex flex-row items-center text-base lg:text-lg font-medium space-x-6 lg:space-x-8">
             {renderNavLinks()}
           </nav>
+
+          {/* Language Selector for Mobile */}
+          <div className="md:hidden absolute right-14 items-center">
+            <button
+              onClick={toggleLanguageDropdown}
+              className="text-white hover:text-gray-400 transition-colors py-2 px-3 rounded-md inline-flex items-center"
+            >
+              <span>{i18n.language === 'fr' ? 'Français' : 'English'}</span>
+            </button>
+            {isLanguageDropdownOpen && (
+              <div className="absolute  mt-2 w-24 items-center origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                <div className="py-1">
+                  <button
+                    onClick={() => changeLanguage("fr")}
+                    className="block w-full px-4 py-2 text-left text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Français
+                  </button>
+                  <button
+                    onClick={() => changeLanguage("en")}
+                    className="block w-full px-4 py-2 text-left text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    English
+                  </button>
+                </div>
+              </div>
+            )}
+          </div>
 
           {/* Mobile Menu Button */}
           <div className="md:hidden">
@@ -264,27 +276,27 @@ export function Header() {
             {/* Mobile Navigation Links */}
             <div className="flex flex-col items-stretch justify-start min-h-screen pb-16 pt-4">
               {renderNavLinks(true)}
-              
+
               <div className="flex justify-center space-x-6 mt-8">
-                
-          <ActionIcon size="lg" color="gray" variant="subtle">
-            <IconBrandGmail
-              style={{ width: rem(30), height: rem(30) }}
-              stroke={1.5}
-            />
-          </ActionIcon>
-          <ActionIcon size="lg" color="gray" variant="subtle">
-            <IconBrandInstagram
-              style={{ width: rem(30), height: rem(30) }}
-              stroke={1.5}
-            />
-          </ActionIcon>
-          <ActionIcon size="lg" color="gray" variant="subtle">
-            <IconPhone
-              style={{ width: rem(30), height: rem(30) }}
-              stroke={1.5}
-            />
-          </ActionIcon>
+
+                <ActionIcon size="lg" color="gray" variant="subtle">
+                  <IconBrandGmail
+                    style={{ width: rem(30), height: rem(30) }}
+                    stroke={1.5}
+                  />
+                </ActionIcon>
+                <ActionIcon size="lg" color="gray" variant="subtle">
+                  <IconBrandInstagram
+                    style={{ width: rem(30), height: rem(30) }}
+                    stroke={1.5}
+                  />
+                </ActionIcon>
+                <ActionIcon size="lg" color="gray" variant="subtle">
+                  <IconPhone
+                    style={{ width: rem(30), height: rem(30) }}
+                    stroke={1.5}
+                  />
+                </ActionIcon>
               </div>
             </div>
           </div>
@@ -293,3 +305,4 @@ export function Header() {
     </div>
   );
 }
+
