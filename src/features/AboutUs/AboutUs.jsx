@@ -3,7 +3,6 @@ import { useTranslation } from "react-i18next";
 import aboutus from '../../Assets/aboutus.jpg';
 import FAQ from '../../Assets/FAQs.jpg'
 
-
 export default function AboutUS() {
 
   const { t } = useTranslation();

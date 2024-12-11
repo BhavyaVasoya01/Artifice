@@ -21,24 +21,24 @@ const router = createHashRouter([
             },
 
             {
-                path: "/about",  // Add the route for About Us
+                path: "/about",
                 element: <AboutUs />,
             },
 
             {
-                path: "/contact",  // Add the route for About Us
+                path: "/contact",
                 element: <ContactUS />,
             },
             {
-                path: "/contactus",  // Add the route for About Us
+                path: "/contactus",
                 element: <ContactUS />,
             },
             {
-                path: "/branding",  // Add the route for About Us
+                path: "/branding",
                 element: <Branding />,
             },
              {
-                path: "/work",  // Add the route for About Us
+                path: "/work",
                 element: <Work />,
             },
         ]
