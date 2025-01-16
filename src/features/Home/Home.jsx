@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { FaPenFancy, FaFacebookF,FaBoxOpen, FaLaptopCode, FaChartLine, FaClipboard } from 'react-icons/fa';
+import { FaPenFancy, FaFacebookF,FaBoxOpen, FaLaptopCode, FaClipboard } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 
@@ -10,6 +10,8 @@ import Testimonial1 from '../../Assets/Testimonial1.jpg'
 import Testimonial2 from '../../Assets/Testimonial2.jpg'
 import Testimonial3 from '../../Assets/Testimonial3.jpg'
 import Testimonial4 from '../../Assets/Testimonial4.jpg'
+import { FaGlobe } from "react-icons/fa6";
+import { DiIllustrator } from "react-icons/di";
 
 
 const Home = () => {
@@ -61,20 +63,17 @@ const Home = () => {
   {
     id: 1,
     name: 'JOHN DOE',
-    role: 'CEO, Company A',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    content: t("Testimonial1"),
   },
   {
     id: 2,
     name: 'JANE SMITH',
-    role: 'CTO, Company B',
-    content: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    content: t("Testimonial2")
   },
   {
     id: 3,
     name: 'ALICE JOHNSON',
-    role: 'Designer, Company C',
-    content: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+    content: t("Testimonial3")
   },
 ];
  
@@ -100,34 +99,34 @@ const [currentSlide, setCurrentSlide] = useState(0);
 const services = [
   {
     icon: <FaPenFancy />,
-    title: 'Branding',
-    description: 'We help create unique brand identities through logo design, brand strategy, and visual storytelling to make your business stand out in the market.'
+    title: t("Branding"),
+    description: t("BrandingDetail")
   },
   {
     icon: <FaFacebookF />,
-    title: 'Social Media Design',
-    description: 'We create visually engaging social media posts and campaigns that resonate with your audience and boost your brand’s online presence.'
+    title: t("SocialMediaDesign"),
+    description: t("SocialMediaDetail")
   },
   {
     icon: <FaClipboard />,
-    title: 'Printing Design',
-    description: 'Our printing design services include flyers, posters, brochures, business cards, and other print materials that communicate your brand effectively.'
+    title: t("PrintingDesign"),
+    description: t("PrintingDetail"),
   },
   {
     icon: <FaLaptopCode />,
-    title: 'Web Design',
-    description: 'We design and develop modern, responsive websites that deliver an exceptional user experience while reflecting your brand’s identity.'
+    title: t("WebDesign"),
+    description: t("webDetail"),
   },
   {
-    // <FaBullhorn />
-    icon: <FaChartLine />,
-    title: 'Digital Marketing',
-    description: 'Our digital marketing services include SEO, PPC, and content marketing to help your business increase online visibility, drive traffic, and generate leads.'
+  
+    icon: <DiIllustrator/>,
+    title: t("LogoDesign"),
+    description: t("LogoDesignDetail")
   },
   {
     icon: <FaBoxOpen />,
-    title: 'Packaging Design',
-    description: 'We create packaging designs that not only stand out on shelves but also communicate your brand’s message effectively to the consumer.'
+    title: t("PackagingDesign"),
+    description: t("PackagingDesignDetail")
   }
 ];
 
@@ -290,7 +289,7 @@ const services = [
     <h1 className="text-2xl md:text-5xl font-bold text-center mb-5" > {t("WhatWeProvide")} </h1>
     <div className="text-center mb-16">
       <p className="max-w-4xl mx-auto">
-        We embrace a holistic and collaborative approach to enhance your brand across multiple platforms. Our skilled team specializes in services from unique logo design to effective digital marketing strategies, ensuring tailored solutions that meet your specific goals. By examining each project from various angles, we create impactful branding and digital experiences that resonate with your audience.
+        {t("WhatWeProvideDetail")}
       </p>
     </div>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -320,7 +319,7 @@ const services = [
 
 
       <div className="w-full max-w-6xl px-4 sm:px-6 lg:px-8">
-        <h2 className="text-2xl sm:text-3xl font-extrabold text-center mb-8 sm:mb-12">What Our Clients Say</h2>
+        <h2 className="text-2xl sm:text-3xl font-extrabold text-center mb-8 sm:mb-12">{t("WhatOurClientsSay")}</h2>
         <div className="relative">
           <div className="overflow-hidden">
             <div

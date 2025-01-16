@@ -5,7 +5,7 @@
   "Prestations": "Prestations",
   "Contactez-nous": "Contactez-nous",
 
-  "WhoWeAre": "Qui nous sommes",
+  "WhoWeAre": "QUI NOUS SOMMES",
   "DecribeWhoWeAre": "Nous sommes un studio graphique dynamique qui se consacre à la mise en valeur de votre marque grâce à la puissance du design. Spécialisés dans l'image de marque, la conception graphique, le développement web et le marketing numérique, nous transformons les idées en visuels convaincants qui attirent votre public cible. De la création de logos uniques aux campagnes publicitaires percutantes, nous concevons des solutions centrées sur l'utilisateur qui résonnent et inspirent, aidant votre entreprise à prospérer dans le paysage numérique.",
   "OurMission": "Notre Mission",
   "OurMissionText": "Chez Artifice Studio, notre mission est de donner vie à des idées créatives par le biais de conceptions innovantes et visuellement convaincantes. Nous visons à renforcer les marques et les entreprises en fournissant des services de conception graphique exceptionnels qui résonnent avec leur public cible, racontent leurs histoires uniques et conduisent au succès. Qu'il s'agisse d'un logo, de matériel de marketing, de la conception d'un site Web ou de l'identité d'une marque, notre mission est de créer des designs qui non seulement se démarquent, mais qui ont aussi un impact.",
@@ -16,12 +16,37 @@
   "OurApproach": "Notre Approche",
   "OurApproachText": "Chez Artifice, nous adoptons une approche de la conception axée sur la collaboration et le client. Nous commençons par comprendre en profondeur votre marque et votre vision, en veillant à ce que chaque projet soit adapté à vos objectifs uniques. Notre processus allie créativité et stratégie, ce qui se traduit par des conceptions qui sont non seulement visuellement captivantes, mais qui ont également un impact. Grâce à une communication ouverte et à un engagement en faveur de l'excellence, nous accompagnons chaque projet de sa conception à sa réalisation, en veillant à ce qu'il dépasse les attentes et produise des résultats significatifs.",
 
-  "WhatWeProvide" : "Ce que nous proposons",
+  "WhatWeProvide" : "CE QUE NOUS PROPOSONS",
+  "WhatWeProvideDetail" : "Nous adoptons une approche globale et collaborative pour faire rayonner votre marque sur différentes plateformes. Notre équipe d'experts propose des services allant de la conception de logos personnalisés à des solutions de branding sur mesure, garantissant que chaque projet s'aligne sur vos objectifs uniques. En prenant en compte chaque aspect, nous créons des expériences de marque percutantes qui trouvent un écho auprès de votre public.",
+  "Branding" : "Image de marque",
+  "BrandingDetail" : "Nous nous spécialisons dans la création d’identités de marque distinctives grâce au développement stratégique de la marque et à la narration visuelle, garantissant que votre entreprise capte l’attention et se démarque sur le marché.",
+  "SocialMediaDesign" : "Conception des médias sociaux",
+  "SocialMediaDetail" : "Nous créons des publications et des campagnes sur les réseaux sociaux visuellement attrayantes qui trouvent un écho auprès de votre public et renforcent la présence en ligne de votre marque.",
+  "PrintingDesign" : "Conception d'impression",
+  "PrintingDetail" : "Nos services de conception d'impression comprennent des dépliants, des affiches, des brochures, des cartes de visite et d'autres supports imprimés qui communiquent efficacement votre marque.",
+  "WebDesign" : "Conception de sites Web",
+  "webDetail" : "Nous concevons et développons des sites Web modernes et réactifs qui offrent une expérience utilisateur exceptionnelle tout en reflétant l'identité de votre marque.",
+  "LogoDesign" : "Création de logo",
+  "LogoDesignDetail" : "Nous nous spécialisons dans la création de logos personnalisés qui reflètent l’identité de votre marque, garantissant une présence visuelle forte et mémorable qui résonne auprès de votre public.",
+  "PackagingDesign" : "Conception d'emballage",
+  "PackagingDesignDetail" : "Nous créons des designs d’emballage qui non seulement se démarquent sur les étagères, mais communiquent également efficacement le message de votre marque au consommateur.",
+  "BrandnDesign" : "Le marché évolue constamment, tout comme les besoins de votre public. Les marques doivent s'adapter et évoluer pour réussir à faire face à ce changement permanent.",
+  "WebSite" : "Des solutions de sites Web personnalisées conçues pour votre réussite.",
+
+  "AboutUsPOne" : "Artifice Studio est un studio de design spécialisé dans la création de solutions de branding innovantes, axées sur la création d'expériences de marque marquantes et mémorables. Nous combinons réflexion stratégique et design créatif pour aider les marques à établir un lien significatif avec leur public. De la stratégie de marque au développement de l'identité visuelle, nous travaillons en étroite collaboration avec les entreprises pour créer des designs uniques qui reflètent leurs valeurs et font une impression durable sur le marché.",
+  "AboutUsPTwo" : "Nous sommes une équipe de professionnels dévoués, engagés à fournir des services de qualité supérieure. Notre mission est de fournir des solutions innovantes et fiables qui aident nos clients à atteindre leurs objectifs.",
+  "AboutUsPThree" : "Fondé en 2018, Artifice Studio s'est forgé une solide réputation en créant des identités de marque exceptionnelles qui trouvent un écho auprès du public. Nous nous concentrons sur la création de designs visuellement saisissants et hautement fonctionnels qui laissent une impression durable. Notre objectif est d'aider votre marque à se démarquer de la concurrence, en alliant créativité et objectif pour assurer votre succès.",
 
   "Notre Menu": "Notre Menu",
   "Menu Général": "Menu Général",
   "Galerie": "Galerie",
   "Traiteur": "Traiteur",
+
+  "WhatOurClientsSay" : "CE QUE DISENT NOS CLIENTS",
+  "Testimonial1" : "Leur conception a dépasser les attentes et a donné à notre marque un aspect professionnel et moderne qui trouve un écho auprès de notre public cible.",
+  "Testimonial2" : "Artifice Studio a joué un rôle déterminant en aidant notre entreprise à développer une identité unique et percutante. Je recommande vivement leurs services pour leur créativité, leur réactivité et leur capacité à capturer et à mettre en œuvre parfaitement notre vision.",
+  "Testimonial3" : "Artifice Studio a transformé notre identité de marque avec créativité et précision. Fortement recommandé pour tous ceux qui cherchent à élever leur marque.",
+
 
   "description": "Artifice Studio est une agence de création spécialisée dans la création de logo, le design graphique, le branding Custom Web Design et la stratégie numérique.",
   "FirstLine": "Une plate-forme pour la conception, l'image de marque, le développement et le marketing",

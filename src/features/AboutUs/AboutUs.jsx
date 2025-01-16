@@ -10,7 +10,7 @@ export default function AboutUS() {
    const services = [
     {
       title: "BRANDING & DESIGN",
-      description: "The world and the market are changing. Audiences evolve. Brands grow. And you need to navigate in this constant flux of change.",
+      description: t("BrandnDesign"),
       items: [
         "Logo Design",
         "Brand Identity & Strategy",
@@ -23,14 +23,12 @@ export default function AboutUS() {
       ]
     },
     {
-      title: "DIGITAL MARKETING",
-      description: "We connect brands with their audiences by creating rewarding digital interactions.",
+      title: "WEB DESING",
+      description: t("WebSite"),
       items: [
-        "Digital Marketing Strategy",
-        "Search Engine Optimization",
-        "PPC & Google AdWords",
-        "Google My Business",
-        "Social Media Advertising"
+        "Static Website",
+        "Custom Website Devlopment",
+        "E-Commerce Website",
       ]
     }
   ]
@@ -84,11 +82,11 @@ export default function AboutUS() {
   <div className="max-w-screen-lg mx-auto px-6">
     <div className="max-w-3xl">
       <p className="text-lg">
-        Artifice Studio is a design studio that specializes in creating innovative branding solutions with a focus on building impactful, memorable brand experiences. We combine strategic thinking with creative design to help brands connect meaningfully with their audience. From brand strategy to visual identity development, we work closely with businesses to craft unique designs that reflect their values and make a lasting impression in the market.
+        {t("AboutUsPOne")}
       </p>
       <br/>
       <p className="max-w-3xl text-lg">
-      We are a dedicated team of professionals, committed to delivering top-quality services. Our mission is to provide innovative and reliable solutions that help our clients achieve their goals.
+        {t("AboutUsPTwo")}
       </p>
     </div>
   </div>
@@ -116,7 +114,7 @@ export default function AboutUS() {
             ARTIFICE 
           </h1>
           <p className="text-lg md:text-xl leading-relaxed opacity-90">
-            CreATUL. Founded in 2000, CreATUL has become one of the best digital agencies in India. We will make your brand stand out from the noise with meticulously crafted designs that tug on your customer's heartstrings. We build for style, high-level functionality, and eye-catching visuals to ensure your path to success.
+           {t("AboutUsPThree")}
           </p>
         </div>
       </div>
@@ -126,7 +124,7 @@ export default function AboutUS() {
 
   {/*-----Service Section----- */}
     <div className="bg-black text-white min-h-screen">
-    <h1 className="text-2xl md:text-5xl font-bold text-center mb-1 pt-10" > What We Provide </h1>
+    <h1 className="text-2xl md:text-5xl font-bold text-center mb-1 pt-10" > {t("WhatWeProvide")} </h1>
   {services.map((service, index) => (
     <section key={index} className="py-20 px-6 md:px-12 lg:px-24 relative border-b border-gray-600">
       <div className="max-w-7xl mx-auto">
